@@ -1,4 +1,5 @@
 import { randomGridPosition } from "./grid.js";
+import { updateScore } from "./utils.js";
 import { expandSnake, onSnake } from "./snake.js";
 
 let food = { x: 10, y: 1};

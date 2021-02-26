@@ -1,7 +1,10 @@
 import { getInpuDirection } from "./input.js"
+import { eatSoundEffect, updateScore } from "./utils.js";
 
-export const SNAKE_SPEED = 5
-const snakeBody = [{ x: 11, y: 11}]
+export const SNAKE_SPEED = 6;
+const snakeBody = [
+  { x: 11, y: 11},
+]
 let newSegments = 0;
 
 export function update() {
@@ -28,6 +31,8 @@ export function draw(gameBoard) {
 
 export function expandSnake(amount) {
   newSegments += amount;
+  updateScore();
+  eatSoundEffect();
 }
 
 export function onSnake(position, { ignoreHead = false} = {}) {

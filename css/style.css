@@ -1,28 +1,23 @@
 body {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #game-board {
-    background-color: #333;
-    width: 100vmin;
-    height: 100vmin;
+    margin: auto;
+    background-color: #146b02;
+    width: 80vmin;
+    height: 80vmin;
     display: grid;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
 }
 
 .snake {
-    background-color: #328fe6;
-    border: .25vmin solid black;
+    background-color: #32e63b;
 }
 
 .food {
     background-color: #e02626;
-    border: .25vmin solid black;
+    border-radius: 50px;
 }

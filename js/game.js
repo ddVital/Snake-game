@@ -6,7 +6,6 @@ let lastRenderTime = 0
 let gameOver = false
 const gameBoard = document.querySelector("#game-board")
 
-
 function main(currentTime) {
   if (gameOver) {
     if (confirm('you lost! Press OK to restart')) {
