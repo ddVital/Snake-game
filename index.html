@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="The player controls a long, thin creature, resembling a snake, which roams around on a bordered plane, picking up food (or some other item), trying to avoid hitting its own tail. Each time the snake eats a piece of food, its tail grows longer, making the game increasingly difficult."
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
 
-        <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./scripts/script.js"></script>
 
-        <script defer src="./scripts/script.js"></script>
+    <title>Snake Game</title>
+  </head>
 
-        <title>Snake Game</title>
-    </head>
-    
-    <body>
-        <section class="game">
-            <header class="header">
-                <div>
-                    <img src="/assets/apple.svg" alt="score">
-                    <span id="score">0</span>
-                </div>
-                <input type="image" src="/assets/on.svg" alt="speaker" id="sound">
-            </header>
-            <canvas id="snake" width="512" height="512"></canvas>
-        </section>
-    </body>
+  <body>
+    <section class="game">
+      <header class="header">
+        <div>
+          <img src="/assets/apple.svg" alt="score" />
+          <span id="score">0</span>
+        </div>
+        <input type="image" src="/assets/on.svg" alt="speaker" id="sound" />
+      </header>
+      <canvas id="snake" width="512" height="512"></canvas>
+    </section>
+  </body>
 </html>
