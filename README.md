@@ -6,4 +6,4 @@ The player controls a long, thin creature, resembling a snake, which roams aroun
 
 use the arrow keys to move a "snake" around the board.
 
-![keys](https://user-images.githubusercontent.com/56490555/161452215-8a16e630-cdd1-46d3-81f1-ce588d5e52f5.svg)
+![keys](https://user-images.githubusercontent.com/56490555/161453982-a869620c-d0f8-4c5c-9d0b-835f43c1e830.png)
